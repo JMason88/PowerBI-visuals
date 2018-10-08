@@ -7,6 +7,7 @@ toc: true
 ---
 
 # Adding Context-Menu to the Bar Chart
+As of API 2.2.0, you can use selectionManager.showContextMenu() with the parameters selectionId and a position to have Power BI disply the context menu for your visual.
 Context-Menu was added to the sample BarChart for reference.
-See [commit](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/5842bdc18eba540ae06278b051fd4e22124d7fae ) for what was added at this step.
+See [commit](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/74b6a3c78ab40ec440e1d3367423ecdb9227ae6b) for what was added at this step.
 More detailed documentation to follow.
