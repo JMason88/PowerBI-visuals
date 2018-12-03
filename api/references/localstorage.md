@@ -12,7 +12,7 @@ It is iolated in the sense that it there's separation of storage access between 
 
 #### Methods
 
-| Method | Return type | Brief description |
+| Method&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Return type | Brief description |
 |---|---|---|
 | get(key: string) | IPromise&lt;string&gt; | Returns promise that resolves to the data associated with 'key' if it was found or rejects otherwise. |
 | set(key: string, data: string) | IPromise&lt;number&gt; | Saves the data to local storage. This data can be later be retrieved using the 'key'. Returns a promise that resolves to the amount of free space available to caller after the save if there is any or rejects otherwise. |
