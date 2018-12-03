@@ -1,0 +1,1 @@
+Local Visuals Storage API
