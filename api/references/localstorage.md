@@ -19,7 +19,7 @@ It is iolated in the sense that it there's separation of storage access between 
 | remove(key: string) | void | Deletes data associated with 'key' from local storage. |
 
 #### Sample
-IF for example the custom visual should increase some counter every time the update method is called, but the counter value should also to be preserved and not to be reset every time the visual starts:
+If the custom visual should increase some counter every time the update method is called, but the counter value should also to be preserved and not to be reset on every visual start:
  
 ```typescript
     export class Visual implements IVisual {
